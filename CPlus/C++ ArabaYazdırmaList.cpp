@@ -21,14 +21,14 @@ private:
 
 int main()
 {
-	bool döngü = true;
+	bool dÃ¶ngÃ¼ = true;
 	string cars, model;
 	int choise;
 
 	vector<Car> carlist;
 	
 
-	while (döngü == true)
+	while (dÃ¶ngÃ¼ == true)
 	{
 		cout << "Araba Ismi Gir:" << endl;
 		cin >> cars;
@@ -46,11 +46,11 @@ int main()
 		cin >> choise;
 		if(choise == 1)
 		{
-			döngü = false;
+			dÃ¶ngÃ¼ = false;
 		}
 		else if(choise == 2)
 		{
-			döngü = true;
+			dÃ¶ngÃ¼ = true;
 		}
 	}
 
